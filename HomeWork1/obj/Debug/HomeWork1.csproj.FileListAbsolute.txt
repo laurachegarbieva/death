@@ -1,0 +1,12 @@
+C:\Users\wsr\source\repos\HomeWork1\HomeWork1\bin\Debug\HomeWork1.exe.config
+C:\Users\wsr\source\repos\HomeWork1\HomeWork1\bin\Debug\HomeWork1.exe
+C:\Users\wsr\source\repos\HomeWork1\HomeWork1\bin\Debug\HomeWork1.pdb
+C:\Users\wsr\source\repos\HomeWork1\HomeWork1\obj\Debug\HomeWork1.csprojAssemblyReference.cache
+C:\Users\wsr\source\repos\HomeWork1\HomeWork1\obj\Debug\HomeWork1.FormAvtorizaciya.resources
+C:\Users\wsr\source\repos\HomeWork1\HomeWork1\obj\Debug\HomeWork1.Forms.FormMeneger.resources
+C:\Users\wsr\source\repos\HomeWork1\HomeWork1\obj\Debug\HomeWork1.Forms.FormZakazy.resources
+C:\Users\wsr\source\repos\HomeWork1\HomeWork1\obj\Debug\HomeWork1.Properties.Resources.resources
+C:\Users\wsr\source\repos\HomeWork1\HomeWork1\obj\Debug\HomeWork1.csproj.GenerateResource.cache
+C:\Users\wsr\source\repos\HomeWork1\HomeWork1\obj\Debug\HomeWork1.csproj.CoreCompileInputs.cache
+C:\Users\wsr\source\repos\HomeWork1\HomeWork1\obj\Debug\HomeWork1.exe
+C:\Users\wsr\source\repos\HomeWork1\HomeWork1\obj\Debug\HomeWork1.pdb
