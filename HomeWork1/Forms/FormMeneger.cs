@@ -12,6 +12,9 @@ namespace HomeWork1.Forms
 {
     public partial class FormMeneger : Form
     {
+
+
+
         public FormMeneger(string login)
         {
             InitializeComponent();
@@ -22,5 +25,7 @@ namespace HomeWork1.Forms
             FormZakazy newFormMeneger = new FormZakazy();
             newFormMeneger.Show();
         }
+
+       
     }
 }

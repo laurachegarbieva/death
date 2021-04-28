@@ -34,8 +34,8 @@ namespace HomeWork1
             this.labeltuptup = new System.Windows.Forms.Label();
             this.buttonAvtor = new System.Windows.Forms.Button();
             this.checkBoxPokazat = new System.Windows.Forms.CheckBox();
-            this.textBoxDannye = new System.Windows.Forms.TextBox();
             this.textBoxPassword = new System.Windows.Forms.TextBox();
+            this.textBoxlogin = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // labelPrivetstviye
@@ -98,19 +98,19 @@ namespace HomeWork1
             this.checkBoxPokazat.UseVisualStyleBackColor = true;
             this.checkBoxPokazat.CheckedChanged += new System.EventHandler(this.checkBoxPokazat_CheckedChanged);
             // 
-            // textBoxDannye
-            // 
-            this.textBoxDannye.Location = new System.Drawing.Point(94, 116);
-            this.textBoxDannye.Name = "textBoxDannye";
-            this.textBoxDannye.Size = new System.Drawing.Size(100, 20);
-            this.textBoxDannye.TabIndex = 5;
-            // 
             // textBoxPassword
             // 
-            this.textBoxPassword.Location = new System.Drawing.Point(94, 79);
+            this.textBoxPassword.Location = new System.Drawing.Point(94, 116);
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.Size = new System.Drawing.Size(100, 20);
-            this.textBoxPassword.TabIndex = 6;
+            this.textBoxPassword.TabIndex = 5;
+            // 
+            // textBoxlogin
+            // 
+            this.textBoxlogin.Location = new System.Drawing.Point(94, 79);
+            this.textBoxlogin.Name = "textBoxlogin";
+            this.textBoxlogin.Size = new System.Drawing.Size(100, 20);
+            this.textBoxlogin.TabIndex = 6;
             // 
             // FormAvtorizaciya
             // 
@@ -118,8 +118,8 @@ namespace HomeWork1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(289, 276);
+            this.Controls.Add(this.textBoxlogin);
             this.Controls.Add(this.textBoxPassword);
-            this.Controls.Add(this.textBoxDannye);
             this.Controls.Add(this.checkBoxPokazat);
             this.Controls.Add(this.buttonAvtor);
             this.Controls.Add(this.labeltuptup);
@@ -142,8 +142,8 @@ namespace HomeWork1
         private System.Windows.Forms.Label labeltuptup;
         private System.Windows.Forms.Button buttonAvtor;
         private System.Windows.Forms.CheckBox checkBoxPokazat;
-        private System.Windows.Forms.TextBox textBoxDannye;
         private System.Windows.Forms.TextBox textBoxPassword;
+        private System.Windows.Forms.TextBox textBoxlogin;
     }
 }
 

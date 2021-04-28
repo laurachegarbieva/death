@@ -1,4 +1,5 @@
-﻿using HomeWork1.Forms;
+﻿using HomeWork1.Entity;
+using HomeWork1.Forms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -26,7 +27,7 @@ namespace HomeWork1
         {
             try
             {
-                if ((string.IsNullOrEmpty(textBoxDannye.Text) || (string.IsNullOrWhiteSpace(textBoxDannye.Text)) || (string.IsNullOrEmpty(textBoxPassword.Text) || (string.IsNullOrWhiteSpace(textBoxPassword.Text)))))
+                if ((string.IsNullOrEmpty(textBoxPassword.Text) || (string.IsNullOrWhiteSpace(textBoxPassword.Text)) || (string.IsNullOrEmpty(textBoxlogin.Text) || (string.IsNullOrWhiteSpace(textBoxlogin.Text)))))
                     throw new Exception("Неправельный пароль");
             }
             catch (Exception ex)
@@ -34,24 +35,25 @@ namespace HomeWork1
                 MessageBox.Show("Внимание","Поля не заполнены", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
-
-            try
-            {
-                if (textBoxDannye.Text == "tuptup" && textBoxPassword.Text == login)
+            using (var bd = new EntityContext())
+                try
                 {
-                    Form f_m = new FormMeneger(login);
-                    f_m.Owner = this;
-                    f_m.Show();
+                    var logpas = bd.managers.FirstOrDefault(u => u.Login == textBoxlogin.Text && u.Password == textBoxPassword.Text);
+                    if (logpas != null)
+                    {
+                        Form f_m = new FormMeneger(login);
+                        f_m.Owner = this;
+                        f_m.Show();
+
+                    }
+                    else throw new Exception("Такого пользователя не существует!");
 
                 }
-                else throw new Exception("Такого пользователя не существует!");
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Ошибка", "Неправильный логин или пороль", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Ошибка", "Неправильный логин или пороль", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
             this.Hide();
 
 
@@ -60,8 +62,8 @@ namespace HomeWork1
         private void checkBoxPokazat_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBoxPokazat.Checked == true)
-                textBoxDannye.PasswordChar = '\0';
-            else textBoxDannye.PasswordChar = '*';
+                textBoxPassword.PasswordChar = '\0';
+            else textBoxPassword.PasswordChar = '*';
         }
     }
 }

@@ -10,3 +10,9 @@ C:\Users\wsr\source\repos\HomeWork1\HomeWork1\obj\Debug\HomeWork1.csproj.Generat
 C:\Users\wsr\source\repos\HomeWork1\HomeWork1\obj\Debug\HomeWork1.csproj.CoreCompileInputs.cache
 C:\Users\wsr\source\repos\HomeWork1\HomeWork1\obj\Debug\HomeWork1.exe
 C:\Users\wsr\source\repos\HomeWork1\HomeWork1\obj\Debug\HomeWork1.pdb
+C:\Users\wsr\source\repos\HomeWork1\HomeWork1\bin\Debug\EntityFramework.dll
+C:\Users\wsr\source\repos\HomeWork1\HomeWork1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\wsr\source\repos\HomeWork1\HomeWork1\bin\Debug\EntityFramework.xml
+C:\Users\wsr\source\repos\HomeWork1\HomeWork1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\wsr\source\repos\HomeWork1\HomeWork1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\wsr\source\repos\HomeWork1\HomeWork1\obj\Debug\HomeWork1.csproj.CopyComplete
