@@ -1,0 +1,20 @@
+C:\Users\Студент\source\repos\Торговая точка\Торговая точка\bin\Debug\Торговая точка.exe.config
+C:\Users\Студент\source\repos\Торговая точка\Торговая точка\bin\Debug\Торговая точка.exe
+C:\Users\Студент\source\repos\Торговая точка\Торговая точка\bin\Debug\Торговая точка.pdb
+C:\Users\Студент\source\repos\Торговая точка\Торговая точка\obj\Debug\Торговая точка.csprojAssemblyReference.cache
+C:\Users\Студент\source\repos\Торговая точка\Торговая точка\obj\Debug\Торговая_точка.FormAvtorizaciya.resources
+C:\Users\Студент\source\repos\Торговая точка\Торговая точка\obj\Debug\Торговая_точка.FormPostavshic.resources
+C:\Users\Студент\source\repos\Торговая точка\Торговая точка\obj\Debug\Торговая_точка.Properties.Resources.resources
+C:\Users\Студент\source\repos\Торговая точка\Торговая точка\obj\Debug\Торговая точка.csproj.GenerateResource.cache
+C:\Users\Студент\source\repos\Торговая точка\Торговая точка\obj\Debug\Торговая точка.exe
+C:\Users\Студент\source\repos\Торговая точка\Торговая точка\obj\Debug\Торговая точка.pdb
+C:\Users\Студент\Desktop\Практическая работа№5\Торговая точка\Торговая точка\bin\Debug\Торговая точка.exe.config
+C:\Users\Студент\Desktop\Практическая работа№5\Торговая точка\Торговая точка\bin\Debug\Торговая точка.exe
+C:\Users\Студент\Desktop\Практическая работа№5\Торговая точка\Торговая точка\bin\Debug\Торговая точка.pdb
+C:\Users\Студент\Desktop\Практическая работа№5\Торговая точка\Торговая точка\obj\Debug\Торговая точка.csprojAssemblyReference.cache
+C:\Users\Студент\Desktop\Практическая работа№5\Торговая точка\Торговая точка\obj\Debug\Торговая_точка.FormAvtorizaciya.resources
+C:\Users\Студент\Desktop\Практическая работа№5\Торговая точка\Торговая точка\obj\Debug\Торговая_точка.FormPostavshic.resources
+C:\Users\Студент\Desktop\Практическая работа№5\Торговая точка\Торговая точка\obj\Debug\Торговая_точка.Properties.Resources.resources
+C:\Users\Студент\Desktop\Практическая работа№5\Торговая точка\Торговая точка\obj\Debug\Торговая точка.csproj.GenerateResource.cache
+C:\Users\Студент\Desktop\Практическая работа№5\Торговая точка\Торговая точка\obj\Debug\Торговая точка.exe
+C:\Users\Студент\Desktop\Практическая работа№5\Торговая точка\Торговая точка\obj\Debug\Торговая точка.pdb
