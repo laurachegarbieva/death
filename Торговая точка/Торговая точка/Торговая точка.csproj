@@ -33,8 +33,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,25 +55,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Формы\Form1.cs">
+    <Compile Include="Entity\EntityContext.cs" />
+    <Compile Include="Entity\Mestopologeniye.cs" />
+    <Compile Include="Entity\Orgnizaciya.cs" />
+    <Compile Include="Entity\Postavshik.cs" />
+    <Compile Include="Entity\Prodovec.cs" />
+    <Compile Include="Entity\Tochka.cs" />
+    <Compile Include="Entity\Tovar.cs" />
+    <Compile Include="Entity\ZakazyPostavshikam.cs" />
+    <Compile Include="Formy\FormDobavleniye.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Формы\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Formy\FormDobavleniye.Designer.cs">
+      <DependentUpon>FormDobavleniye.cs</DependentUpon>
     </Compile>
-    <Compile Include="Формы\FormPostavshic.cs">
+    <Compile Include="Formy\FormAvtorizaciya.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Формы\FormPostavshic.Designer.cs">
-      <DependentUpon>FormPostavshic.cs</DependentUpon>
+    <Compile Include="Formy\FormAvtorizaciya.Designer.cs">
+      <DependentUpon>FormAvtorizaciya.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formy\FormRedoctirovaniyeDannyh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formy\FormRedoctirovaniyeDannyh.Designer.cs">
+      <DependentUpon>FormRedoctirovaniyeDannyh.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Формы\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Formy\FormDobavleniye.resx">
+      <DependentUpon>FormDobavleniye.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Формы\FormPostavshic.resx">
-      <DependentUpon>FormPostavshic.cs</DependentUpon>
+    <EmbeddedResource Include="Formy\FormAvtorizaciya.resx">
+      <DependentUpon>FormAvtorizaciya.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formy\FormRedoctirovaniyeDannyh.resx">
+      <DependentUpon>FormRedoctirovaniyeDannyh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -75,6 +101,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -88,6 +115,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Model\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -18,3 +18,30 @@ C:\Users\Студент\Desktop\Практическая работа№5\Тор
 C:\Users\Студент\Desktop\Практическая работа№5\Торговая точка\Торговая точка\obj\Debug\Торговая точка.csproj.GenerateResource.cache
 C:\Users\Студент\Desktop\Практическая работа№5\Торговая точка\Торговая точка\obj\Debug\Торговая точка.exe
 C:\Users\Студент\Desktop\Практическая работа№5\Торговая точка\Торговая точка\obj\Debug\Торговая точка.pdb
+C:\Users\Студент\Desktop\Практическая работа№5\death\Торговая точка\Торговая точка\bin\Debug\Торговая точка.exe.config
+C:\Users\Студент\Desktop\Практическая работа№5\death\Торговая точка\Торговая точка\bin\Debug\Торговая точка.exe
+C:\Users\Студент\Desktop\Практическая работа№5\death\Торговая точка\Торговая точка\bin\Debug\Торговая точка.pdb
+C:\Users\Студент\Desktop\Практическая работа№5\death\Торговая точка\Торговая точка\obj\Debug\Торговая точка.csprojAssemblyReference.cache
+C:\Users\Студент\Desktop\Практическая работа№5\death\Торговая точка\Торговая точка\obj\Debug\Торговая_точка.FormAvtorizaciya.resources
+C:\Users\Студент\Desktop\Практическая работа№5\death\Торговая точка\Торговая точка\obj\Debug\Торговая_точка.FormPostavshic.resources
+C:\Users\Студент\Desktop\Практическая работа№5\death\Торговая точка\Торговая точка\obj\Debug\Торговая_точка.Properties.Resources.resources
+C:\Users\Студент\Desktop\Практическая работа№5\death\Торговая точка\Торговая точка\obj\Debug\Торговая точка.csproj.GenerateResource.cache
+C:\Users\Студент\Desktop\Практическая работа№5\death\Торговая точка\Торговая точка\obj\Debug\Торговая точка.exe
+C:\Users\Студент\Desktop\Практическая работа№5\death\Торговая точка\Торговая точка\obj\Debug\Торговая точка.pdb
+C:\Users\Студент 1С\Desktop\Практическая работа№5\death\Торговая точка\Торговая точка\bin\Debug\Торговая точка.exe.config
+C:\Users\Студент 1С\Desktop\Практическая работа№5\death\Торговая точка\Торговая точка\bin\Debug\Торговая точка.exe
+C:\Users\Студент 1С\Desktop\Практическая работа№5\death\Торговая точка\Торговая точка\bin\Debug\Торговая точка.pdb
+C:\Users\Студент 1С\Desktop\Практическая работа№5\death\Торговая точка\Торговая точка\bin\Debug\EntityFramework.dll
+C:\Users\Студент 1С\Desktop\Практическая работа№5\death\Торговая точка\Торговая точка\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Студент 1С\Desktop\Практическая работа№5\death\Торговая точка\Торговая точка\bin\Debug\EntityFramework.xml
+C:\Users\Студент 1С\Desktop\Практическая работа№5\death\Торговая точка\Торговая точка\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Студент 1С\Desktop\Практическая работа№5\death\Торговая точка\Торговая точка\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Студент 1С\Desktop\Практическая работа№5\death\Торговая точка\Торговая точка\obj\Debug\Торговая точка.csprojAssemblyReference.cache
+C:\Users\Студент 1С\Desktop\Практическая работа№5\death\Торговая точка\Торговая точка\obj\Debug\Торговая_точка.FormAvtorizaciya.resources
+C:\Users\Студент 1С\Desktop\Практическая работа№5\death\Торговая точка\Торговая точка\obj\Debug\Торговая_точка.FormRedactirovaniyeDannyh.resources
+C:\Users\Студент 1С\Desktop\Практическая работа№5\death\Торговая точка\Торговая точка\obj\Debug\Торговая_точка.Properties.Resources.resources
+C:\Users\Студент 1С\Desktop\Практическая работа№5\death\Торговая точка\Торговая точка\obj\Debug\Торговая точка.csproj.GenerateResource.cache
+C:\Users\Студент 1С\Desktop\Практическая работа№5\death\Торговая точка\Торговая точка\obj\Debug\Торговая точка.csproj.CopyComplete
+C:\Users\Студент 1С\Desktop\Практическая работа№5\death\Торговая точка\Торговая точка\obj\Debug\Торговая точка.exe
+C:\Users\Студент 1С\Desktop\Практическая работа№5\death\Торговая точка\Торговая точка\obj\Debug\Торговая точка.pdb
+C:\Users\Студент 1С\Desktop\Практическая работа№5\death\Торговая точка\Торговая точка\obj\Debug\Торговая_точка.Formy.FormDobavleniye.resources
